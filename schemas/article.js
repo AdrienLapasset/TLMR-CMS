@@ -26,6 +26,14 @@ export default {
       },
     },
     {
+      name: 'date',
+      type: 'date',
+      title: 'Date',
+      options: {
+        dateFormat: 'DD-MM-YYYY',
+      },
+    },
+    {
       name: 'author',
       type: 'string',
       title: 'Auteur',
