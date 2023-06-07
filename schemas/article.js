@@ -32,6 +32,7 @@ export default {
       options: {
         dateFormat: 'DD-MM-YYYY',
       },
+      validation: (Rule) => Rule.required(),
     },
     {
       name: 'author',
