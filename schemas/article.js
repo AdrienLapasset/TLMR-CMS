@@ -54,6 +54,10 @@ export default {
             {title: 'Titre 4', value: 'h4'},
             {title: 'Titre 5', value: 'h5'},
           ],
+          lists: [{title: 'Bullet', value: 'bullet'}],
+          marks: {
+            decorators: [{title: 'Emphasis', value: 'em'}],
+          },
         },
         {
           type: 'image',
