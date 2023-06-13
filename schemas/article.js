@@ -29,8 +29,9 @@ export default {
       name: 'date',
       type: 'date',
       title: 'Date',
+      placeholder: new Date().toLocaleDateString('fr-FR'),
       options: {
-        dateFormat: 'DD-MM-YYYY',
+        dateFormat: 'DD/MM/YYYY',
       },
       validation: (Rule) => Rule.required(),
     },
@@ -52,7 +53,6 @@ export default {
             {title: 'Titre 2', value: 'h2'},
             {title: 'Titre 3', value: 'h3'},
             {title: 'Titre 4', value: 'h4'},
-            {title: 'Titre 5', value: 'h5'},
           ],
           lists: [{title: 'Bullet', value: 'bullet'}],
           marks: {
