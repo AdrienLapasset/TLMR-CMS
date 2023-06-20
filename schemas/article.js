@@ -13,6 +13,7 @@ export default {
       name: 'heroImg',
       type: 'image',
       title: "Image d'en tête",
+      options: {hotspot: true},
       validation: (Rule) => Rule.required(),
     },
     {
