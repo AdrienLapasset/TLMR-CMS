@@ -62,6 +62,15 @@ export default {
         },
         {
           type: 'image',
+          fields: [
+            {
+              name: 'link',
+              type: 'url',
+              options: {
+                isHighlighted: true,
+              },
+            },
+          ],
         },
       ],
     },
