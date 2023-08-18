@@ -2,6 +2,18 @@ export default {
   name: 'article',
   type: 'document',
   title: 'Articles',
+  orderings: [
+    {
+      title: 'most recent',
+      name: 'dateDesc',
+      by: [{field: 'date', direction: 'desc'}],
+    },
+    {
+      title: 'oldest',
+      name: 'dateAsc',
+      by: [{field: 'date', direction: 'asc'}],
+    },
+  ],
   fields: [
     {
       name: 'title',
