@@ -1,6 +1,5 @@
 import {defineConfig} from 'sanity'
 import {deskTool} from 'sanity/desk'
-import {visionTool} from '@sanity/vision'
 import {schemaTypes} from './schemas'
 import {netlifyWidget} from 'sanity-plugin-dashboard-widget-netlify'
 import {dashboardTool} from '@sanity/dashboard'
@@ -14,7 +13,6 @@ export default defineConfig({
 
   plugins: [
     deskTool(),
-    visionTool(),
     dashboardTool({
       widgets: [
         netlifyWidget({
