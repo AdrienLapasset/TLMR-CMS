@@ -57,7 +57,7 @@ export default {
     {
       name: 'content',
       type: 'array',
-      title: 'Contenu',
+      title: "Contenu de l'article",
       of: [
         {
           type: 'block',
@@ -74,15 +74,17 @@ export default {
         },
         {
           type: 'image',
+          title: 'Image',
           fields: [
             {
               name: 'link',
               type: 'url',
-              options: {
-                isHighlighted: true,
-              },
+              title: "Lien de l'image (optionnel)",
             },
           ],
+        },
+        {
+          type: 'youtube',
         },
       ],
     },
