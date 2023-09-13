@@ -20,8 +20,8 @@ export default defineConfig({
           sites: [
             {
               title: 'Site',
-              apiId: 'ca554a79-fb7c-4d84-9df3-4df9efe20cae',
-              buildHookId: '64b12f84e2305b066ccac6fb',
+              apiId: 'e6006a2b-088c-443c-ab29-c55a34f7a847',
+              buildHookId: '6501b7f59e8d9a0ea9d2203d',
               name: 'tlmr-avocats',
               url: 'https://tlmr.netlify.app',
             },
